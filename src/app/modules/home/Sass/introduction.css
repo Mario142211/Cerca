@@ -1,0 +1,176 @@
+.introduction__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__slogan {
+  font-family: "Raleway";
+  color: rgb(133, 133, 133);
+  font-size: 16px;
+}
+
+.intro__title {
+  font-family: "Abril Fatface";
+  font-size: 56px;
+  color: rgb(0, 0, 0);
+}
+
+.intro__works {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  color: white;
+  background: black;
+}
+
+.intro__works:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.intro__works:active {
+  background: black;
+}
+
+.intro__get-estimate {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px;
+  border-color: black;
+  color: black;
+  background: white;
+  border-style: solid;
+}
+
+.cerca_bg {
+  width: 600px;
+  height: 450px;
+}
+
+.cont-social__media {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.main__container {
+  display: flex;
+}
+
+@media screen and (max-width: 780px) {
+  .cont-social__media {
+    visibility: hidden;
+  }
+  .intro__title {
+    font-family: "Raleway";
+    font-size: 32px;
+  }
+  .cerca_bg {
+    width: 251px;
+    height: 194px;
+  }
+}
+.new_model_title {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.card_new_model {
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.9) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+  margin-bottom: 70px;
+}
+.card_new_model .bg_image_painter {
+  display: flex;
+  justify-content: flex-end;
+}
+.card_new_model .background__painter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card_new_model .painter {
+  position: absolute;
+  width: 100%;
+  opacity: 0.1;
+}
+.card_new_model .info {
+  color: white;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+.card_new_model .Rating__star {
+  width: 20px;
+  height: 17px;
+  margin-left: 6px;
+}
+.card_new_model .Rating {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.card_new_model .description {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.card_new_model li {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+}
+.card_new_model li a {
+  text-decoration: none;
+  color: white;
+}
+.card_new_model .options {
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+.card_new_model .options li {
+  padding: 10px;
+}
+.card_new_model .confirm_estimate {
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  color: white;
+  background: black;
+}
+
+@media screen and (min-width: 600px) {
+  .card_new_model {
+    margin-top: 180px;
+  }
+  .card_new_model .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card_new_model .painter {
+    width: 100%;
+    height: 39rem;
+  }
+  .card_new_model .background__painter {
+    width: 60%;
+  }
+  .card_new_model .background__painter .lastjob_img {
+    width: 100%;
+  }
+  .card_new_model .info {
+    text-align: left;
+    margin-top: 5%;
+    width: 30%;
+    height: 28rem;
+  }
+}/*# sourceMappingURL=introduction.css.map */
